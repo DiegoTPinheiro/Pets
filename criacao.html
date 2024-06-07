@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/criacao.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/criacao.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <nav class="navegacao">
+            <div class="logo">
+                <img src="img/logo.png" class="logo">
+            </div>
+            <div class="links">
+                <ul class="nav-itens">
+                    <li><a href="index_logado.html">Home</a></li>
+                    <li><a href="index_logado.html">Pets</a></li>
+                    <li><a href="#anchor">Sobre nós</a></li>
+                    <li><a href="#anchor">Suporte</a></li>
+                </ul>
+            </div>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                    <input id="input" type="search" class="input">
+                </div>
+        </nav>
+        <br></br>
+        <br></br>
+        <div id="principal">
+            <h1>Cadastro de Pets</h1>
+            <form id="form">
+                <label>Nome</label>
+                <input type="text" name="txt_nome" id="nome"><br>
+                <label>Cor</label>
+                <input type="text" name="txt_cor" id="cor"><br>
+                <label>Raça</label>
+                <input type="text" name="txt_raca" id="raca"><br>
+                <label>Imagem</label>
+                <input type="text" name="txt_image" id="image"><br>
+                <div id="Salvar">Salvar</div>
+            </form>
+        </div>
+        <div id="listPets">
+            <h1>Listagem de Pets</h1>
+            <br>
+            <div class="linha">
+                <div class="titulo">Nome</div>
+                <div class="titulo">Cor</div>
+                <div class="titulo">Raça</div>
+                <div class="titulo">Opções</div>
+            </div>
+            <div id="listDados"></div>
+        </div>
+    </div>
+    <br></br>
+    <br></br>
+    <footer id="anchor">
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="img/logo.png" class="logofooter">
+                <p>Transforme uma vida, adote um pet hoje.</p>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Sobre nós</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nossas Unidades</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adote um Pet</a>
+                </li>
+                <li>
+                    <a href="index_logado.html" class="footer-link">Doação</a>
+                </li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+                <p>Cadastre seu e-mail:</p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169 2024 todos os direitos reservados D&G
+        </div>
+    </footer>
+</body>
+</html>

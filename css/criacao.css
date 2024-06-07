@@ -1,0 +1,139 @@
+body{
+    background-color: #dedee1;
+    margin: 0;
+    padding: 0;
+   
+}
+
+#principal{
+    width: 500px;
+    height: 500px;
+    background-color:#ffffff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#principal h1{
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    background-color:#2C173A;
+    color: #ffffff;
+    font-family: Verdana;
+}
+
+form{
+    width: 90%;
+    margin: auto;
+}
+
+
+#principal label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px;
+    height: 20px;
+    display: block;
+}
+
+#principal input, textarea{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: solid 1px #c1c1c1;
+    margin-bottom: 10px;
+}
+
+#principal input[name="txt_price"]{
+    width: 30%;
+}
+
+#subtitle {
+    height: 100px;
+    resize: none;
+}
+
+#Salvar{
+    margin-top: 10px;;
+    padding-top: 8px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #2C173A;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#Salvar:hover{
+    background-color: #2C173A;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#listPets{
+
+    width: 1200px;
+    height: auto;
+    min-height: 200px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-left: 2.5px;
+    margin: auto;
+    
+}
+
+#listPets h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#listPets .linha{
+    width: inherit;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    background-color: #2C173A;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+#listPets .linha div{
+    width: 30%;
+    margin-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.dados div{
+    width: 50px;
+    background-color: #5c0a8f85;
+    box-sizing: border-box;
+    margin-right: 5px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
+.dados img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+   
+}
+
+.dados img:hover{
+    cursor: pointer;
+}
+
+
